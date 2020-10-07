@@ -10,7 +10,7 @@ now = datetime.datetime.now()
 
 client = discord.Client()
 
-token = "NzQ3NjA1MTExODE1MDEyMzky.X0RThA.G49jSIUg_cf6OUUKZVc6oFXFWbc"
+token = "2YCy6JOYiLkcuEfiU_lToJKh2C7KyUPR"
 
 a = 0
 
@@ -261,81 +261,7 @@ async def on_message(message):
             partyone = []
             await message.channel.send('파티를 초기화 했습니다')
 
-    if message.content == ('!영단어 외우기'):
-        sender = str(message.author)
-        message.channel.send('영단어 외우기 기능이 활성화 됬습니다\n표를 보려면 !표,게임을 시작하려면 !시작 이라고 적으세요'
-        if message.author is sender:
-            if cmd == ('시작'):
-                await message.channel.send('게임이 시작되면 다람봇이 이 단어의 의미를 알려줍니다.답변을 반드시 (기본형) (과거형) (과거분사형) 으로 적으세요.\n \
-설마 괄호 포함해서 적는 바보는 없겠지?게임을 멈추려면 !정지 명령어를 사용하면 됩니다.10문제를 맞추기 전까지는 나갈 수 없습니다.')
-                while hit < 10:
-                    question = random.choice(English_word)
-                    question = str(question)
-                    await message.channel.send(question)
-                    async def on_message(message):
-                        if message.content == ('!정지'):
-                            break
-                        if quesion is ('발생하다'):
-                            if message.content == ('arise arose arisen'):
-                                  hit + 1
-                                  message.channel.send('정답입니다!')
-                             else:
-                                message.channel.send('틀렸습니다!,정답은 arise arose arisen 입니다!')
-                         if quesion is ('-이다/있다'):
-                             if message.content == ('be was/were been'):
-                                 hit + 1
-                                 message.channel.send('정답입니다!')
-                              else:
-                                 message.channel.send('틀렸습니다!,정답은 be was/were been 입니다!')
-                         if quesion is ('-이 되다'):
-                               if message.content == ('become became become'):
-                                hit + 1
-                                message.channel.send('정답입니다!')
-                              else:
-                                message.channel.send('틀렸습니다!,정답은 become became become 입니다!')
-                         if quesion is ('시작하다'):
-                              if message.content == ('begin began begun'):
-                                hit + 1
-                                  message.channel.send('정답입니다!')
-                             else:
-                                   message.channel.send('틀렸습니다!,정답은 be was/were been 입니다!')
-                          if quesion is ('물다'):
-                              if message.content == ('bite bit bitten'):
-                                   hit + 1
-                                  message.channel.send('정답입니다!')
-                              else:
-                                  message.channel.send('틀렸습니다!,정답은 bite bit bitten 입니다!')
-                          if quesion is ('부서지다,깨다'):
-                             if message.content == ('break broke broken'):
-                                hit + 1
-                                message.channel.send('정답입니다!')
-                            else:
-                                message.channel.send('틀렸습니다!,정답은 break broke broken 입니다!')
-                        if quesion is ('가져오다'):
-                            if message.content == ('bring brought brought'):
-                                hit + 1
-                                message.channel.send('정답입니다!')
-                                else:
-                                    message.channel.send('틀렸습니다!,정답은 bring brought brought 입니다!')
-                         if quesion is ('짓다,건축하다'):
-                            if message.content == ('build built built'):
-                                hit + 1
-                                message.channel.send('정답입니다!')
-                            else:
-                                message.channel.send('틀렸습니다!,정답은 build built built 입니다!')
-                        if quesion is ('사다,구입하다'):
-                            if message.content == ('buy bought bought'):
-                                hit + 1
-                                message.channel.send('정답입니다!')
-                             else:
-                                  message.channel.send('틀렸습니다!,정답은 buy bought bought 입니다!')
-                          if quesion is ('잡다'):
-                              if message.content == ('catch caught caught'):
-                                 hit + 1
-                                   message.channel.send('정답입니다!')
-                            else:
-                                   message.channel.send('틀렸습니다!,정답은 catch caught caught 입니다!')
-                                  
+
                             
         
 
@@ -345,6 +271,6 @@ async def on_message(message):
 
                                        
 
-client.run("NzQ3NjA1MTExODE1MDEyMzky.X0RThA.G49jSIUg_cf6OUUKZVc6oFXFWbc")
+client.run("2YCy6JOYiLkcuEfiU_lToJKh2C7KyUPR")
     
 
