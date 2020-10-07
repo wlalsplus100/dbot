@@ -10,7 +10,7 @@ now = datetime.datetime.now()
 
 client = discord.Client()
 
-token = "2YCy6JOYiLkcuEfiU_lToJKh2C7KyUPR"
+token = "NzQ3NjA1MTExODE1MDEyMzky.X0RThA.G49jSIUg_cf6OUUKZVc6oFXFWbc"
 
 a = 0
 
@@ -271,6 +271,6 @@ async def on_message(message):
 
                                        
 
-client.run("2YCy6JOYiLkcuEfiU_lToJKh2C7KyUPR")
+client.run("NzQ3NjA1MTExODE1MDEyMzky.X0RThA.G49jSIUg_cf6OUUKZVc6oFXFWbc")
     
 
