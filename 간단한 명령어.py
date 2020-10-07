@@ -10,7 +10,7 @@ now = datetime.datetime.now()
 
 client = discord.Client()
 
-token = "NzQ3NjA1MTExODE1MDEyMzky.X0RThA.G49jSIUg_cf6OUUKZVc6oFXFWbc"
+token = "NzQ3NjA1MTExODE1MDEyMzky.X0RThA.2XZWEXBmZ4k6xUmzZLdexbcAt_Q"
 
 a = 0
 
